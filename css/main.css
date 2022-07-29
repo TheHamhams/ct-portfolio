@@ -1,6 +1,8 @@
 :root {
     --orange: rgb(224, 130, 53);
     --purple: rgb(132, 0, 255);
+    --gray: rgb(56, 56, 56);
+    --blue: rgb(49, 69, 158);
 }
 
 main {
@@ -47,6 +49,7 @@ h1 {
 section {
     margin: 50px;
     border-radius: 10px;
+    padding: 10px;
 }
 
 footer {
@@ -55,6 +58,8 @@ footer {
     height: 5vh;
     margin-top: 0;
     text-align: center;
+    background-color: var(--orange);
+    color: black;
 }
 
 hr {
@@ -99,6 +104,36 @@ textarea, input {
     border: 5px solid var(--orange);
 }
 
+#intro {
+    background-color: var(--gray);
+}
+
 #history {
-    background-color: rgb(49, 69, 158);
+    background-color: var(--blue);
+}
+
+#hobbies {
+    background-color: var(--gray);
+}
+
+#projects {
+    background-color: var(--blue);
+}
+
+#contact {
+    background-color: var(--gray);
+}
+
+.project-image {
+    float: left;
+    padding: 5px;
+}
+
+.project-text {
+    padding: 10px;
+}
+
+section article a, #contact a {
+    color: var(--orange);
+    text-decoration: none;
 }
